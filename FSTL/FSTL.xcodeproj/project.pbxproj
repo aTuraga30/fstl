@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5EE084528848973005B444F /* FSTLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EE084428848973005B444F /* FSTLApp.swift */; };
+		B5EE084728848973005B444F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EE084628848973005B444F /* ContentView.swift */; };
+		B5EE084928848976005B444F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EE084828848976005B444F /* Assets.xcassets */; };
+		B5EE084C28848976005B444F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EE084B28848976005B444F /* Preview Assets.xcassets */; };
+		B5EE085328848BBA005B444F /* InputScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EE085228848BBA005B444F /* InputScores.swift */; };
+		B5EE085528848BFF005B444F /* showLeaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EE085428848BFF005B444F /* showLeaderboard.swift */; };
+		B5EE085728848C31005B444F /* updateOTS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EE085628848C31005B444F /* updateOTS.swift */; };
+		EDA1AEC6442A460EFBCD08AF /* Pods_FSTL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D80D35CB5137D24B32EFB78 /* Pods_FSTL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D80D35CB5137D24B32EFB78 /* Pods_FSTL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FSTL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6269DB4FAC15E87B7D7320 /* Pods-FSTL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSTL.debug.xcconfig"; path = "Target Support Files/Pods-FSTL/Pods-FSTL.debug.xcconfig"; sourceTree = "<group>"; };
+		B5EE084128848973005B444F /* FSTL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSTL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EE084428848973005B444F /* FSTLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSTLApp.swift; sourceTree = "<group>"; };
+		B5EE084628848973005B444F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5EE084828848976005B444F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5EE084B28848976005B444F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5EE085228848BBA005B444F /* InputScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputScores.swift; sourceTree = "<group>"; };
+		B5EE085428848BFF005B444F /* showLeaderboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showLeaderboard.swift; sourceTree = "<group>"; };
+		B5EE085628848C31005B444F /* updateOTS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateOTS.swift; sourceTree = "<group>"; };
+		EA257A608B798B89EFFCAC82 /* Pods-FSTL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSTL.release.xcconfig"; path = "Target Support Files/Pods-FSTL/Pods-FSTL.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5EE083E28848973005B444F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA1AEC6442A460EFBCD08AF /* Pods_FSTL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BF9379E5DF6AD412BFC7AF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D80D35CB5137D24B32EFB78 /* Pods_FSTL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8679CE41B4EB0DCF296D0864 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C6269DB4FAC15E87B7D7320 /* Pods-FSTL.debug.xcconfig */,
+				EA257A608B798B89EFFCAC82 /* Pods-FSTL.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B5EE083828848973005B444F = {
+			isa = PBXGroup;
+			children = (
+				B5EE084328848973005B444F /* FSTL */,
+				B5EE084228848973005B444F /* Products */,
+				8679CE41B4EB0DCF296D0864 /* Pods */,
+				5BF9379E5DF6AD412BFC7AF1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5EE084228848973005B444F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE084128848973005B444F /* FSTL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5EE084328848973005B444F /* FSTL */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE084428848973005B444F /* FSTLApp.swift */,
+				B5EE084628848973005B444F /* ContentView.swift */,
+				B5EE085228848BBA005B444F /* InputScores.swift */,
+				B5EE085428848BFF005B444F /* showLeaderboard.swift */,
+				B5EE085628848C31005B444F /* updateOTS.swift */,
+				B5EE084828848976005B444F /* Assets.xcassets */,
+				B5EE084A28848976005B444F /* Preview Content */,
+			);
+			path = FSTL;
+			sourceTree = "<group>";
+		};
+		B5EE084A28848976005B444F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE084B28848976005B444F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5EE084028848973005B444F /* FSTL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5EE084F28848976005B444F /* Build configuration list for PBXNativeTarget "FSTL" */;
+			buildPhases = (
+				AE15032EF9222A0472BA2A17 /* [CP] Check Pods Manifest.lock */,
+				B5EE083D28848973005B444F /* Sources */,
+				B5EE083E28848973005B444F /* Frameworks */,
+				B5EE083F28848973005B444F /* Resources */,
+				A6907A9EE1B6405A3EDF8834 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSTL;
+			productName = FSTL;
+			productReference = B5EE084128848973005B444F /* FSTL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5EE083928848973005B444F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B5EE084028848973005B444F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B5EE083C28848973005B444F /* Build configuration list for PBXProject "FSTL" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5EE083828848973005B444F;
+			productRefGroup = B5EE084228848973005B444F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5EE084028848973005B444F /* FSTL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5EE083F28848973005B444F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EE084C28848976005B444F /* Preview Assets.xcassets in Resources */,
+				B5EE084928848976005B444F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6907A9EE1B6405A3EDF8834 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FSTL/Pods-FSTL-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FSTL/Pods-FSTL-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FSTL/Pods-FSTL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE15032EF9222A0472BA2A17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FSTL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5EE083D28848973005B444F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EE085728848C31005B444F /* updateOTS.swift in Sources */,
+				B5EE084728848973005B444F /* ContentView.swift in Sources */,
+				B5EE085328848BBA005B444F /* InputScores.swift in Sources */,
+				B5EE085528848BFF005B444F /* showLeaderboard.swift in Sources */,
+				B5EE084528848973005B444F /* FSTLApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B5EE084D28848976005B444F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5EE084E28848976005B444F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5EE085028848976005B444F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C6269DB4FAC15E87B7D7320 /* Pods-FSTL.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FSTL/Preview Content\"";
+				DEVELOPMENT_TEAM = N2FLCZLN88;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magnus.FSTL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5EE085128848976005B444F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA257A608B798B89EFFCAC82 /* Pods-FSTL.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FSTL/Preview Content\"";
+				DEVELOPMENT_TEAM = N2FLCZLN88;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magnus.FSTL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5EE083C28848973005B444F /* Build configuration list for PBXProject "FSTL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EE084D28848976005B444F /* Debug */,
+				B5EE084E28848976005B444F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5EE084F28848976005B444F /* Build configuration list for PBXNativeTarget "FSTL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EE085028848976005B444F /* Debug */,
+				B5EE085128848976005B444F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5EE083928848973005B444F /* Project object */;
+}
