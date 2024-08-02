@@ -17,6 +17,10 @@ The Base OTS score is divided into two fractions, the left and the right one whi
 
 This application is used to calculate the OTS scores of two players after a match has completed, view the leaderboard, and update each player's individual OTS score. 
 
+<img align="left" width="220px" src="https://github.com/aTuraga30/fstl/blob/main/pictures/app1.png?raw=true">
+<img align="left" width="220px" src="https://github.com/aTuraga30/fstl/blob/main/pictures/app2.png?raw=true">
+<img align="left" width="220px" src="https://github.com/aTuraga30/fstl/blob/main/pictures/app3.png?raw=true">
+<img width="220px" src="https://github.com/aTuraga30/fstl/blob/main/pictures/app4.png?raw=true">
 
 ## Usage
 
